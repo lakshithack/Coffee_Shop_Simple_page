@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 2</title>
+    <!--CSS file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="topnav">
+            <span class="logo">MyCafe</span>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#coffee">Services</a>
+                <a href="#prices">Prices</a>
+                <a href="#calculator">Calculator</a>
+            </div>
+        </div>
+    </header>
+
+    <!--content-->
+
+    <!--cover-->
+    <div class="cover" id="home">
+        <img class="cover-img" src="img/cover.jpg" alt="cover">
+    </div>
+
+    <!--about-->
+    <section id="about" style="margin-top: 2rem; margin-bottom: 2rem;">
+        <div class="about">
+            <div class="about-content">
+                <h1 class="head">About</h1>
+                <p style="padding:0 2rem 0 0; font-size: 1.2rem;">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Molestias minima sit quasi adipisci non similique vero est, cum quos ipsa minus nihil qui unde nemo illo ratione blanditiis aperiam aliquam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit et id commodi facilis reprehenderit totam, vitae laborum non? Debitis vero at 
+                    repellat quo error, veniam eligendi magni sapiente quisquam? Laudantium.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="img/about-img.jpeg" alt="" style="width:100%; height:auto;">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Coffee menu-->
+    <section id="coffee">
+        <div class="coffee">
+            <center><h1 class="head">Coffee Menu</h1></center>
+            <div class="coffee-img">
+                <img src="img/coffee.jpeg" alt="" style="width: 100%;height:auto;">
+            </div>
+            <div class="coffee-content">
+                <div class="content1">
+                    <ul>
+                        <li>Hot Coffee</li>
+                        <li>White Mocha</li>
+                        <li>Carmel Macchiato</li>
+                        <li>Monsoons</li>
+                        <li>Pumpkin Spice Latte </li>
+                    </ul>
+                </div>
+
+                <div class="content2">
+                    <ul>
+                        <li>Latte</li>
+                        <li>Spanish Latte</li>
+                        <li>Carmel Deluxe</li>
+                        <li>Ice Teas</li>
+                        <li>Mocha</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<hr>
+
+    <!--Prices-->
+    <section id="prices">
+        <div class="prices">
+            <center><h1 class="head">Prices</h1></center>
+            <div class="prices-img">
+                <img src="img/prices-img.jpeg" alt="" style="width: 100%; height:auto;margin: 10px;">
+            </div>
+            <div class="prices-content" style="overflow: auto;">
+                <table>
+                    <tr>
+                        <th rowspan="2" style="width: 50%;">Item</th>
+                        <th colspan="2">Price</th>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                        <th style="width: 25%;">1 Cup</th>
+                        <th style="width: 25%;">2 Cups</th>
+                    </tr>
+                    <tr>
+                        <td>Hot Coffee</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>White Mocha</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Carmel Macchiato</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Monsoons</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Pumpkin Spice Latte</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+
+                    <tr>
+                        <td>Latte</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Spanish Latte</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Ice Teas</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>200</td>
+                        <td>350</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+<hr>
+
+    <!--Calculator-->
+    <section id="calculator">
+        <div class="calculator">
+            <center><h1 class="head">Calculator</h1></center>
+            <div class="calculator-content">
+                <div class="card">
+                    <center><h2>Calculate Your bill</h2></center>
+                    <hr>
+                    
+                        <div class="form-div">
+                            <label for="product">Product</label>
+                            <select name="product" id="product" style="padding: 6px; width: 70%;">
+                                <option value="Hot-Coffee">Hot Coffee</option>
+                                <option value="White-Mocha">White Mocha</option>
+                                <option value="Carmel-Macchiato">Carmel Macchiato</option>
+                                <option value="Moosoons">Monsoons</option>
+                                <option value="Latte">Latte</option>
+                                <option value="Ice-Teas">Ice Teas</option>
+                            </select>
+                        </div>
+                        <div class="form-div">
+                            <label for="cups" style="padding: 0 20px 0 0;">Cups</label><input type="number" name="cups" id="cups" style="padding: 6px; width: 70%">
+                        </div>
+                        <center><button onclick="calculator()">Calculate</button></center>
+                    
+                    <hr>
+                    <div>
+                        <center><p id="message"></p></center>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator-img">
+                <img src="img/calculator.jpg" alt="" style="width: 100%; height:auto;margin: 10px;">
+            </div>
+        </div>
+    </section>
+ <!--Script for calculator-->
+    <script>
+        function calculator() {
+            let product = document.getElementById("product").value;
+            let cups = document.getElementById("cups").value;
+            let price = "";
+            if (cups < 2) {
+                price = 400;
+            } else if (cups == 2) {
+                price = 350;
+            } else if (cups > 2) {
+                price = 300;
+            }
+            let sum = parseInt(price) * parseInt(cups);
+            document.getElementById("message").innerHTML = "Product:"+product+"<br>"+ "Total Price: LKR "+sum+".00";
+        }
+    </script>
+
+    <!--Footer-->
+    <footer>
+        <marquee behavior="scroll" direction="right" scrollamount="12">Created by Lakshitha Chamod</marquee>
+    </footer>
+</body>
+</html>

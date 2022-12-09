@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.topnav .menu {
+    float: right;
+    padding: 8px;
+}
+
+.topnav .menu a {
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.topnav .menu a:hover {
+    color: green;
+}
+
+/*cover*/
+.cover-img {
+    width: 100%;
+    position: cover;
+    height: auto;
+}
+
+.head {
+    font-size: 30px;
+}
+
+/*About*/
+.about {
+    overflow: auto;
+    margin: 0rem 4rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-content {
+    float: left;
+    width: 50%;
+    height: auto;
+    background-color: white;
+}
+
+.about-img {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+/*Coffee*/
+.coffee {
+    overflow: auto;
+    margin-top: 0rem;
+    overflow: auto;
+    margin: 0rem 4rem;
+    padding: 1rem;
+}
+
+.coffee-img {
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+.coffee-content {
+    float: left;
+    width: 75%;
+    height: auto;
+    background-color: white;
+}
+
+.content1, .content2{
+    width: 50%;
+    float: left;
+}
+
+.coffee-content ul li{
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Prices*/
+
+.prices {
+    overflow: auto;
+    margin-top: 0rem;
+    overflow: auto;
+    margin: 0rem 4rem;
+    padding: 1rem;
+}
+
+.prices-content {
+    float: left;
+    width: 60%;
+    height: auto;
+    background-color: white;
+}
+
+.prices-content table {
+    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.prices-content th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.prices-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.prices-img {
+    width: 40%;
+    float: left;
+    height: auto;
+}
+
+/* Calculator */
+.calculator {
+    overflow: auto;
+    margin-top: 0rem;
+    overflow: auto;
+    margin: 0rem 4rem;
+    padding: 1rem;
+}
+.calculator-content{
+    float: left;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-img {
+    width: 40%;
+    float: left;
+    height: auto;
+}
+
+.calculator-content .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    background-color: white;
+    border-radius: 5%;
+    width: 60%;
+    height: auto;
+}
+
+.card .form-div {
+    padding: 10px;
+}
+
+.card button {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* footer */
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .about, .coffee{
+    margin: 1rem;
+  }
+  .about-content, .about-img {
+    width: 100%;
+  }
+  .coffee-content ul{
+    margin: 0;
+  }
+  .coffee-content ul li{
+    padding: .5rem;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .prices {
+    margin: 0 1rem;
+  }
+  .prices-content, .prices-img {
+    width: 100%;
+  }
+  .prices-content table {
+    margin: 5px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 13px;
+}
+  .calculator-content, .calculator-img {
+    width: 100%;
+  }
+  .calculator-content .card {
+    width: 80%;
+  }
+}
